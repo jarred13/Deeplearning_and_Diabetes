@@ -1,13 +1,17 @@
-# Deeplearning_and_Diabetes
+# Deeplearning and Diabetes
 
-This is a jupiter notebook that was published on Kaggle.
+# Overview
+This notebook creates four machine learning models to predict if a person has diabetes. The models used are: Logistic Regression, Random Forest, K Nearest Neighbors, and Deep Neural Network. This notebook also sets out to find which features are most important in determining if someone has diabetes. This was done by using the eli5 machine learning explainable library. This notebook is hosted on Kaggle and can be found here: https://www.kaggle.com/code/jarredpriester/can-deep-learning-predict-diabetes
 
-The purpose of this notebook was to see if deep learning could accuratly predict if someone has diabetes or not based on medical features.
+# Purpose of this Project
+The main purpose of this notebook was to create my first deep learning model. The secondary purpose was to get an insight into  what factors were most important for predicting diabetes.
 
-The data set that was used is the PIMA Indian Diabetes data set. The PIMA Indians are a tribe in Arizona and more about their history can be found here https://en.wikipedia.org/wiki/Pima_people
+# What Did I Learn
+I learned how to implement a deep learning model for classification using the Keras library. The model consisted of four dense layers with the last layer using the sigmoid activation. I learned that glucose levels were the most important factor when predicting if someone has diabetes. Body Mass Index (BMI) was also an important factor.
 
-The data set consist of females over the age of 21. There are a total of 9 features including outcome, which is what the model trys to predict.
+# Dataset Used
+The dataset was the PIMA Indian dataset. The dataset consists of females over the age of 21. There are 9 features including outcome, which is what we will be trying to predict.
 
-This is a binary classification problem. Logistic Regression, Random Forest, K Nearest Neighbors, Deep Neural Network were the models used. 
-
-Models were evaluated with F1 score, ROC AUC, and accuracy.
+# Files Used
+diabetes.csv - dataset  
+can-deep-learning-predict-diabetes.ipynb - python notebook
