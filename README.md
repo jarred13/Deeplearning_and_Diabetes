@@ -14,4 +14,4 @@ The dataset was the PIMA Indian dataset. The dataset consists of females over th
 
 # Files Used
 diabetes.csv - dataset  
-can-deep-learning-predict-diabetes.ipynb - python notebook
+can-deep-learning-predict-diabetes.ipynb - Kaggle python notebook
